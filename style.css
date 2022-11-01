@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bcard {
+    margin: 100px auto 0;
+    padding: 25px;
+    width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    background-color: #d3d3d3;
+    border: 3px solid #aaaaaa;;
+    border-radius: 3px;
+    transition: all .2s;
+}
+
+.bcard:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+}
+
+.bcard__photo {
+    margin-right: 22px;
+    width: 128px;
+    border-radius: 100%;
+}
+
+.bcard__text {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.bcard__text a {
+    font-style: italic;
+    text-decoration: none;
+    color: #000000;
+}
+
+.bcard__text a:hover {
+    text-decoration: underline;
+}
